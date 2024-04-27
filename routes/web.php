@@ -5,7 +5,8 @@ use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    return redirect('/courses');
 });
 
 Route::get('/courses', [CourseController::class, 'getAll']);

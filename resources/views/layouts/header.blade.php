@@ -2,7 +2,7 @@
     <div class="header-top">
         <div class="container">
             <div class="logo">
-                <a href="index.html"><img src="{{asset('mazer/assets/static/images/logo/logo.svg')}}" alt="Logo"></a>
+                <a href="{{url('/courses')}}"><img src="{{asset('mazer/assets/static/images/logo/logo.svg')}}" alt="Logo"></a>
             </div>
             <div class="header-top-right">
 
