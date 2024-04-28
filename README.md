@@ -25,6 +25,12 @@ Clone project
   https://github.com/nurulkafi/lms-moodle-api-test
 ```
 
+Install
+
+```bash
+  composer install
+```
+
 Change env.example to .env 
 
 Fill Moodle Server And Moodle Token 
@@ -33,14 +39,13 @@ Fill Moodle Server And Moodle Token
   MOODLE_TOKEN=your_token
 ```
 
-Run
+Generate Env Key
 
 ```bash
-  composer install
+  php artisan key:generate
 ```
 
 Run The Project
-
 
 ```bash
   php artisan serve
