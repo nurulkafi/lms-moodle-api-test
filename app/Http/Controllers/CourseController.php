@@ -102,7 +102,7 @@ class CourseController extends Controller
             $data[] = $courseData;
         }
 
-        return view('course.index', compact('data'));
+        return view('course.index', compact('data','search'));
     }
 
     public function create()

@@ -11,9 +11,9 @@
             <div class="row mb-3">
                 <div class="col-md-11">
                     <div class="form-group">
-                        <input type="text" name="search" class="form-control" id="search"
-                            placeholder="Search By ID or Name">
+                        <input type="text" name="search" value="{{ !empty($search) ? $search : "" }}" class="form-control" id="search" placeholder="Search By ID or Name">
                     </div>
+
                 </div>
                 <div class="col-md-1">
                     <div class="form-group">
